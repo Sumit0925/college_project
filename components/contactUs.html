@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/contactUs.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="sticky-nav">
+    <div class="nav-text">
+      <a href="../index.html" class="pressed"><img src="./img/gcet_logo.png" alt="gcet_logo" width="50"></a>
+        <h1>Career Launch</h1>
+
+    </div>
+
+    <div id="nav-bar2">
+        <h4 class="nav-item pressed">
+            <img src="./img/contact-us.png" alt="about-img">
+            <a href="./contactUs.html">Contact Us</a>
+        </h4>
+        <h4 class="nav-item pressed">
+            <img src="./img/about.png" alt="about-img">
+
+            <a href="#">About</a>
+        </h4>
+        <h4 class="nav-item pressed">
+            <img src="./img/log-in.png" alt="about-img">
+
+            <a href="https://vinay0712.github.io/signup/">Sign In</a>
+        </h4>
+
+    </div>
+</nav>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Training & Placement Officer
+            Government College of Engineering and Technology,
+            Chak Bhalwal,
+            Jammu, J&K State(India).
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <a href="https://maps.app.goo.gl/8uainY69F9BfQReG7" class="dec"><img src="img/location.png" class="icon"
+                  alt="" /></a>
+              <p>Chak Bhalwal , Jammu
+                Jammu and Kashmir , 181122</p>
+            </div>
+            <div class="information">
+              <a href="mailto:tpogcetjammu@gmail.com">
+                <img src="img/email.png" class="icon" alt="" /></a>
+              <p>tpogcetjammu@gmail.com
+              </p>
+            </div>
+            <div class="information">
+              <a href="tel:>+919419137081">
+                <img src="img/phone.png" class="icon" alt="" /></a>
+              <p>+91 94191-37081</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/placementcell.gcet/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/gcetjammu">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="/send_email" method="post" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" id="name" required />
+              <label for="">Name</label>
+              <span>Name</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" id="email" required />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" id="phone" required />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" id="message" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/contactUs.js"></script>
+</body>
+
+</html>
